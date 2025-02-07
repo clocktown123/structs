@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+struct plant {
+	string name;
+	string type;
+	int waterLVL;
+	bool isAlive = true;
+};
+
+int main() {
+	plant FlyTrap;
+	FlyTrap.name = "JoVaun";
+	FlyTrap.type = "carniverous";
+	FlyTrap.waterLVL = 6;
+	FlyTrap.isAlive = true;
+
+	cout << "plant name: " << FlyTrap.name << ", type: " << FlyTrap.type << ", water level: " << FlyTrap.waterLVL << ", is it alive: " << FlyTrap.isAlive << endl;
+}
+
